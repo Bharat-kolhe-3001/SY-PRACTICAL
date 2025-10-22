@@ -4,7 +4,7 @@ using namespace std;
 
 int stack[20]; 
 int top = -1;     
-
+ 
 void push(char c) {
     if (top == 19) {
         cout << "Stack Overflow\n";
